@@ -1,0 +1,52 @@
+html{
+    background-color: #fffff5;
+    background-image: url("../images/forest-dark-evening-sunset-last-light-minimalistic-5c.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    min-width: 2em;
+    margin: 0;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Die folgenden Codezeilen dienen dazu, um der Navigationsleiste ein Aussehen zu verpassen. */
+.listgen {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3A2F0A;
+}
+
+.listitem {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.listitem a {
+    display: block;
+    color: #7A62E4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+/* Und hier endet der Spaß. :o */
+
+
+/*
+colours:
+#FFFFFF white
+#7A62E4 purple
+#FCD23B yellow
+#CCA517 dirtier yellow
+#3A2F0A brown
+*/
