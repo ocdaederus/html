@@ -16,7 +16,7 @@
     margin: 0;
     /* margin-bottom: 5em; */
     height: fit-content;
-    width: auto;
+    /* width: 500px; */
     /* backdrop-filter: blur(5em); */
     
     /* From https://css.glass */
@@ -46,6 +46,7 @@
 .container {
     padding: 4%;
     position: absolute;
+    text-align: center;
 }
 
 /* tablet devices */
@@ -53,6 +54,7 @@
     .container {
         padding: 3%;
         position: absolute;
+        text-align: center;
     }   
 }
 
@@ -61,5 +63,6 @@
     .container {
         padding: 2%;
         position: absolute;
+        text-align: center;
     }   
 }
