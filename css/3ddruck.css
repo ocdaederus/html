@@ -1,0 +1,47 @@
+.introprint {
+    color: antiquewhite;
+    height: fit-content;
+    margin: 1em 2em;
+    text-align: center;
+
+    /* Glaseffekt */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.21);
+}
+
+#text1 {
+    margin: 1em;
+}
+
+.galerie {
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.nav {
+    color: bisque;
+    float: left;
+    width: 14em;
+}
+
+.content {
+    margin-left: 22em;
+}
+
+#navtitle {
+    font-weight: normal;
+}
+
+li {
+    list-style: none;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}

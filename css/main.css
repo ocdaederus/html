@@ -1,0 +1,84 @@
+html {
+    /* background-color: #fffff5; */
+    background-color: #bbb;
+    background: url(../images/background-image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    min-width: 2em;
+    margin: 0;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Die folgenden Codezeilen dienen dazu, um der Navigationsleiste ein Aussehen zu verpassen. */
+.listgen {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3A2F0A;
+}
+
+.listitem {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+.listitem a {
+    display: block;
+    color: #7A62E4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Schwebeeffekt */
+li a:hover {
+    background-color: #111;
+}
+
+
+/*
+colours:
+#FFFFFF white
+#7A62E4 purple
+#FCD23B yellow
+#CCA517 dirtier yellow
+#3A2F0A brown
+*/
+
+
+/* div area container */
+/* Im div container wird die Größe des Bereiches anhand der Auflösung des verwendeten Bildschirmes definiert.*/
+
+/* mobile phone */
+.container {
+    padding: 4%;
+    position: absolute;
+    text-align: center;
+}
+
+/* tablet devices */
+@media (min-width: 500px) {
+    .container {
+        padding: 3%;
+        position: absolute;
+        text-align: center;
+    }   
+}
+
+/* desktop computer */
+@media (min-width: 900px) {
+    .container {
+        padding: 2%;
+        position: absolute;
+        text-align: center;
+    }   
+}
+
+/* Und hier endet der Spaß. :o */
