@@ -13,6 +13,7 @@ body {
     margin: 0;
     font-family: Tahoma, Verdana, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
+    color: darkslategray;
 }
 
 /* Die folgenden Codezeilen dienen dazu, um der Navigationsleiste ein Aussehen zu verpassen. */
