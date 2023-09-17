@@ -4,3 +4,7 @@
     font-weight: normal;
     color: aquamarine;
 }
+
+ul, li{
+    list-style-type: none;
+}
